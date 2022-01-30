@@ -1,0 +1,101 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+
+
+img { 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+}
+
+img:hover { 
+    transform: scale(1.1);
+    filter: grayscale(20%);
+    filter: brightness(110%);   
+    filter: contrast(110%)
+}
+
+body { 
+    background: url(assets/background.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: poppins;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .3) 10px 10px 80px;
+    margin-top: 20%;
+ }
+ 
+.head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+ li{ 
+     display: inline;
+}
+ 
+ ul { 
+    list-style-type: none; 
+}
+
+ .profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+}
+
+.about { 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-style: solid;
+    border-radius: 4px;
+}
+  
+.icon { 
+    color: black;
+}
+h3 { 
+   font-size: 16px; 
+}
+
+#name { 
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#location{ 
+    padding-bottom: 2%;
+}
+
+.links {
+    padding-top: 2%;
+ }
+ 
+.about:hover { 
+    transform: scale(1.02);
+}
+
+.icon:hover { 
+    transform: scale(1.1);
+    color: whitesmoke
+}
+
+{ }
+
+
